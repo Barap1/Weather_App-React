@@ -5,7 +5,10 @@ import Constants  from 'expo-constants';
 import Weatherinfo from './Weatherinfo';
 import background from "../assets/sunset.jpeg";
 import font from "../assets/RobotoCondensed-Regular.ttf"
-const API_KEY = '263c13155a9b6a252c265238062ee451';
+
+///////////////////////////////
+const API_KEY = 'put you api key here';
+//////////////////////////////
 
 const Weather = () => {
     const [weatherData, setWeatherdata] = useState(null);
